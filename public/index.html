@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+        /*// 滚动条宽度*/
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        /*// 滚动条轨道*/
+        ::-webkit-scrollbar-track {
+            background: rgb(239, 239, 239);
+            /*border-radius: 5px;*/
+        }
+        /*// 小滑块*/
+        ::-webkit-scrollbar-thumb {
+            background: #555d65;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #99a9bf;
+        }
+    </style>
+</head>
+<body>
+<noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+</noscript>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
+</html>
