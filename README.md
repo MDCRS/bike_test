@@ -19,7 +19,7 @@ npm run build
 
 ## 项目简介
 
-该项目是我的毕业设计作品，是一以前后端分离模式的项目，后端项目是：[vue-admin]("https://github.com/MDCRS/vue-admin")
+该项目是我的毕业设计作品，是一以前后端分离模式的项目，后端项目是：[vue-admin](https://github.com/MDCRS/vue-admin/tree/master)
 
 ## 使用到的技术
 ```
